@@ -1,0 +1,18 @@
+.home__image {
+  width: 100%;
+  margin-bottom: -200px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.home__row {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+
+  .home__image {
+    width: 100%;
+    margin-bottom: -80px;
+    
+  }
+}
